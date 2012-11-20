@@ -1,0 +1,35 @@
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.hero-unit {
+  padding:15px 25px;
+  h2 {
+    font-family:"Century Gothic";
+  }
+  img.map {
+    float:right;
+    margin-left:15px;
+    box-shadow:3px 3px 10px rgba(0, 0, 0, 0.7)
+  }
+}
+.container a.brand {
+  background: transparent url('../img/basecamp-small.png') left center no-repeat;
+  padding-left:45px;
+  font-family:"Century Gothic";
+  color:#fff;
+}
+.replyto {
+  font-weight:300;
+  color:#fff;
+  letter-spacing:1px;
+}
+
+.itinerary {
+  h3, h4 {
+    margin:5px auto;
+    text-align:center;
+    font-family:"Century Gothic";
+  }
+}
