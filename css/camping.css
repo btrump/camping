@@ -50,10 +50,13 @@ body {
 }
 /* line 42, ../scss/sass/camping.scss */
 .itinerary img {
+  width: 270px;
+  height: 203px;
+  margin: 0 auto;
   padding: 3px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
-/* line 46, ../scss/sass/camping.scss */
+/* line 49, ../scss/sass/camping.scss */
 .itinerary li {
   font-size: 16px;
   line-height: 24px;
