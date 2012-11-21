@@ -33,20 +33,27 @@ body {
   font-weight: 300;
   color: #fff;
   letter-spacing: 1px;
+  margin-top: 4px;
+}
+/* line 29, ../scss/sass/camping.scss */
+.replyto p {
+  line-height: 15px;
+  margin: 0;
+  text-align: right;
 }
 
-/* line 31, ../scss/sass/camping.scss */
+/* line 37, ../scss/sass/camping.scss */
 .itinerary h3, .itinerary h4 {
   margin: 9px auto;
   text-align: center;
   font-family: "Century Gothic";
 }
-/* line 36, ../scss/sass/camping.scss */
+/* line 42, ../scss/sass/camping.scss */
 .itinerary img {
   padding: 3px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 }
-/* line 40, ../scss/sass/camping.scss */
+/* line 46, ../scss/sass/camping.scss */
 .itinerary li {
   font-size: 16px;
   line-height: 24px;
