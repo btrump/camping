@@ -1,33 +1,63 @@
+$scale:0.9;
+
 body {
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: (60px*$scale);
+  padding-bottom: (40px*$scale)
 }
 
+#main, #navbar {
+  width: (1170px*$scale);
+}
+img.logo {
+  float:left;
+  padding: (10px*$scale) 0 (10px*$scale) 0;
+  width:(43px*$scale);
+  height:(35px*$scale);
+}
 .hero-unit {
-  padding:15px 25px;
-  border-radius:10px;
+  padding:(15px*$scale) (25px*$scale);
+  border-radius:(10px*$scale);
+  margin-bottom: (30px*$scale);
+  font-size: (18px*$scale);
+  font-weight: 200;
+  line-height: (30px*$scale);
   h2 {
+    font-size:(24px*$scale);
     font-family:"Century Gothic";
+    margin: (10px*$scale) 0;
+    line-height: (40px*$scale);
+  }
+  h4 {
+    margin: (10px*$scale) 0;
+    font-size:(17.5px*$scale);
+    line-height: (20px*$scale);
   }
   img.map {
     float:right;
-    margin:0 0 10px 15px;
-    box-shadow:3px 3px 10px rgba(0, 0, 0, 0.7);
+    margin:0 0 (10px*$scale) (15px*$scale);
+    box-shadow:(3px*$scale) (3px*$scale) (10px*$scale) rgba(0, 0, 0, 0.7);
+    width:(450px*$scale);
+    height:(349px*$scale);
+  }
+  ol {
+    margin: 0 0 (10px*$scale) (25px*$scale);
   }
 }
 .container a.brand {
-  background: transparent url('../img/basecamp-small.png') left center no-repeat;
-  padding-left:45px;
   font-family:"Century Gothic";
   color:#fff;
+  padding: (10px*$scale) (20px*$scale) (10px*$scale) (22px*$scale);
+  margin-left: -(10px*$scale);
+  font-size: (24px*$scale);
+  font-weight: 200;
 }
 .replyto {
   font-weight:300;
   color:#fff;
-  letter-spacing:1px;
-  margin-top:4px;
+  letter-spacing:(1px*$scale);
+  margin-top:(6px*$scale);
   p {
-    line-height:15px;
+    line-height:(18px*$scale);
     margin:0;
     text-align:right;
   }
@@ -35,20 +65,23 @@ body {
 
 .itinerary {
   h3, h4 {
-    margin:9px auto;
-    text-align:center;;
+    margin:(9px*$scale) auto;
+    text-align:center;
     font-family:"Century Gothic";
   }
+  .span3 {
+    width:(255px*$scale);
+    margin-left: (45px*$scale);
+  }
   img {
-    width:270px;
-    height:203px;
+    width:100%;
     margin:0 auto;
-    padding:3px;
-    box-shadow:0 0 20px rgba(0, 0, 0, 0.7);
+    padding:(3px*$scale);
+    box-shadow:0 0 (20px*$scale)rgba(0, 0, 0, 0.7);
   }
   li {
-    font-size:16px;
-    line-height:24px;
+    font-size:(16px*$scale);
+    line-height:(24px*$scale);
     list-style:circle;
   }
 }
