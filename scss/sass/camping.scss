@@ -5,13 +5,14 @@ body {
 
 .hero-unit {
   padding:15px 25px;
+  border-radius:10px;
   h2 {
     font-family:"Century Gothic";
   }
   img.map {
     float:right;
     margin-left:15px;
-    box-shadow:3px 3px 10px rgba(0, 0, 0, 0.7)
+    box-shadow:3px 3px 10px rgba(0, 0, 0, 0.7);
   }
 }
 .container a.brand {
@@ -28,8 +29,17 @@ body {
 
 .itinerary {
   h3, h4 {
-    margin:5px auto;
-    text-align:center;
+    margin:9px auto;
+    text-align:center;;
     font-family:"Century Gothic";
+  }
+  img {
+    padding:3px;
+    box-shadow:0 0 20px rgba(0, 0, 0, 0.7);
+  }
+  li {
+    font-size:16px;
+    line-height:24px;
+    list-style:circle;
   }
 }

@@ -1,19 +1,26 @@
 /* line 1, ../scss/sass/camping.scss */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+/* line 6, ../scss/sass/camping.scss */
 .hero-unit {
   padding: 15px 25px;
+  border-radius: 10px;
 }
-/* line 3, ../scss/sass/camping.scss */
+/* line 9, ../scss/sass/camping.scss */
 .hero-unit h2 {
   font-family: "Century Gothic";
 }
-/* line 6, ../scss/sass/camping.scss */
+/* line 12, ../scss/sass/camping.scss */
 .hero-unit img.map {
   float: right;
   margin-left: 15px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
 }
 
-/* line 12, ../scss/sass/camping.scss */
+/* line 18, ../scss/sass/camping.scss */
 .container a.brand {
   background: transparent url("../img/basecamp-small.png") left center no-repeat;
   padding-left: 45px;
@@ -21,16 +28,27 @@
   color: #fff;
 }
 
-/* line 18, ../scss/sass/camping.scss */
+/* line 24, ../scss/sass/camping.scss */
 .replyto {
   font-weight: 300;
   color: #fff;
   letter-spacing: 1px;
 }
 
-/* line 25, ../scss/sass/camping.scss */
+/* line 31, ../scss/sass/camping.scss */
 .itinerary h3, .itinerary h4 {
-  margin: 5px auto;
+  margin: 9px auto;
   text-align: center;
   font-family: "Century Gothic";
+}
+/* line 36, ../scss/sass/camping.scss */
+.itinerary img {
+  padding: 3px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+/* line 40, ../scss/sass/camping.scss */
+.itinerary li {
+  font-size: 16px;
+  line-height: 24px;
+  list-style: circle;
 }
