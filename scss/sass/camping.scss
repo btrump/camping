@@ -1,12 +1,14 @@
 $scale:0.9;
+$font-scale:1.15;
 
 body {
-  padding-top: (60px*$scale);
-  padding-bottom: (40px*$scale)
+  padding-top: (70px*$scale);
+  padding-bottom: (40px*$scale);
+  background-color:transparent;
 }
 
 #main, #navbar {
-  width: (1170px*$scale);
+  width: (1050px*$scale);
 }
 img.logo {
   float:left;
@@ -15,21 +17,21 @@ img.logo {
   height:(35px*$scale);
 }
 .hero-unit {
-  padding:(15px*$scale) (25px*$scale);
+  padding:(10px*$scale) (25px*$scale);
   border-radius:(10px*$scale);
   margin-bottom: (30px*$scale);
-  font-size: (18px*$scale);
+  font-size: (18px*$scale*$font-scale);
   font-weight: 200;
   line-height: (30px*$scale);
   h2 {
-    font-size:(24px*$scale);
+    font-size:(24px*$scale*$font-scale);
     font-family:"Century Gothic";
     margin: (10px*$scale) 0;
     line-height: (40px*$scale);
   }
   h4 {
     margin: (10px*$scale) 0;
-    font-size:(17.5px*$scale);
+    font-size:(17.5px*$scale*$font-scale);
     line-height: (20px*$scale);
   }
   img.map {
@@ -48,7 +50,7 @@ img.logo {
   color:#fff;
   padding: (10px*$scale) (20px*$scale) (10px*$scale) (22px*$scale);
   margin-left: -(10px*$scale);
-  font-size: (24px*$scale);
+  font-size: (24px*$scale*$font-scale);
   font-weight: 200;
 }
 .replyto {
@@ -70,7 +72,7 @@ img.logo {
     font-family:"Century Gothic";
   }
   .span3 {
-    width:(255px*$scale);
+    width:(215px*$scale);
     margin-left: (45px*$scale);
   }
   img {
@@ -80,8 +82,21 @@ img.logo {
     box-shadow:0 0 (20px*$scale)rgba(0, 0, 0, 0.7);
   }
   li {
-    font-size:(16px*$scale);
+    font-size:(14px*$scale*$font-scale);
     line-height:(24px*$scale);
     list-style:circle;
   }
+}
+.valence {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -720px;
+  width: 1440px;
+  height: 1117px;
+  background-size:100%;
+  z-index: -1;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background:#fff url('../img/bml-large.jpg') no-repeat;
 }
